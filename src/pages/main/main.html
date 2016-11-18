@@ -1,0 +1,56 @@
+<!--
+  Generated template for the Main page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+</ion-header>
+
+
+<ion-content padding>
+    <button ion-button color="blue" (click)="ViewProfil()">
+        Profile
+        <ion-icon name="contact"> </ion-icon>
+    </button>
+    <button ion-button color="danger" (click)="LogOut()">
+        <ion-icon name="log-out"> </ion-icon>
+        Log Out
+    </button>
+
+    <ion-card>
+
+        <ion-card-header>
+            Devices
+            <button ion-button color="secondary">
+                <ion-icon name="add"> </ion-icon>
+                Add Device
+            </button>
+        </ion-card-header>
+
+        <ion-list>
+            <button ion-item *ngFor="let device of devices" (click)="DetailDevice(device)">
+                <h2>{{device.nom}}</h2>
+            </button>
+        </ion-list>
+
+    </ion-card>
+
+    <ion-card>
+
+        <ion-card-header>
+            Groups
+            <button ion-button color="secondary">
+                <ion-icon name="add"> </ion-icon>
+                Add Group
+            </button>
+        </ion-card-header>
+
+        <ion-list>
+            <button ion-item *ngFor="let group of groups" (click)="DetailGroup(group)">
+                <h2>{{group.group.name}}</h2>
+            </button>
+        </ion-list>
+
+    </ion-card>
+</ion-content>

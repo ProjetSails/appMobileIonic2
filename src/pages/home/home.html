@@ -1,0 +1,26 @@
+<ion-header>
+  <!--<ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>-->
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Ionic!</h2>
+    <form (ngSubmit)="Login()">
+
+        <ion-item>
+            <ion-label floating>Username</ion-label>
+            <ion-input type="text" [(ngModel)]="login.username" name="username"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="password" [(ngModel)]="login.pwd" name="pwd"></ion-input>
+        </ion-item>
+        <button ion-button type="submit" block>Login</button>
+     </form>
+        
+        <div style="margin-top:40px;">
+            <a href="#/signup">No account yet? Sign Up...</a>
+        </div>
+</ion-content>

@@ -1,0 +1,2 @@
+C:\Users\alexandre\Documents\workspace\TestIonic2\src\pages\main\main.js
+C:\Users\alexandre\Documents\workspace\TestIonic2\src\pages\main\main.d.ts
