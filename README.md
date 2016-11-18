@@ -1,20 +1,17 @@
-Ionic 2 App Base
+App Mobile en Ionic 2
 =====================
+# groupe 1
+<p>Loïs Lachaud, Baptiste Lanusse, Yoann Murat, Alexandre Plaitant</p>
+<p>Cours IOT - Ingésup Bordeaux - 2016/2017</p>
+<br/>
+----------------------------------------------------------------------
+<br/>
 
-This is the base template for Ionic 2 starter apps.
+Technologie jamais approché. 
+## Points Forts:
+- Déploiement rapide d'une solution sur n'importe quelle plateforme mobile
+- Organisation du code friendly
 
-## Using this project
-
-You'll need the Ionic CLI with support for v2 apps:
-
-```bash
-$ npm install -g ionic
-```
-
-Then run:
-
-```bash
-$ ionic start myApp
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/docs/v2/getting-started/) page.
+## Points Bloquants:
+- Difficulté pour la récupération de la réponse d'un requete HTTP
+- Peu de d'aide de la communauté...
